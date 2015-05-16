@@ -1,13 +1,13 @@
 #!/bin/bash
 ############################
-# This script creates symlinks from the home directory to any desired dotfiles in ~/dotfiles
+# This script creates symlinks for dotfiles
 ############################
 
-########## Variables
+# Variables
 
-dir=~/Dropbox/All/Backup/Settings/dotfiles  				# dotfiles directory
-olddir=~/Dropbox/All/Backup/Settings/dotfiles/dotfiles_old  # old dotfiles backup directory
-files="aliases vimrc bash_profile gitconfig gitignore vim"	 	# list of files/folders to symlink in homedir
+dir=~/Dropbox/All/Backup/Settings/dotfiles_old                  # dotfiles directory
+olddir=~/Dropbox/All/Backup/Settings/dotfiles/dotfiles_old      # old dotfiles backup directory
+files="aliases vimrc bash_profile gitconfig gitignore vim"      # list of files/folders to symlink in homedir
 
 ##########
 
