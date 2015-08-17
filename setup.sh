@@ -5,7 +5,7 @@
 
 # Variables
 
-dir=~/Dropbox/All/Backup/Settings/dotfiles                      # dotfiles directory
+dir=~/Dropbox/All/settings/dotfiles                 		    # dotfiles directory
 olddir=~/dotfiles_old/                                          # old dotfiles backup directory
 files="aliases vimrc bash_profile gitconfig gitignore vim"      # list of files/folders to symlink in homedir
 
