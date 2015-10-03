@@ -180,15 +180,6 @@ defaults write com.google.Chrome NSUserKeyEquivalents -dict-add "Downloads" -str
 defaults write com.google.Chrome NSUserKeyEquivalents -dict-add "Preferences..." -string "@$w"
 defaults write com.google.Chrome NSUserKeyEquivalents -dict-add "Reopen Closed Tab" -string "@e"
 
-
-###############################################################################
-# Keyboard shortcuts                                                          #
-###############################################################################
-
-defaults write NSGlobalDomain NSUserKeyEquivalents -dict-add "Mailbox Search" -string "@f"
-defaults write NSGlobalDomain NSUserKeyEquivalents -dict-add "Show Next Tab" -string "@~\\U2192"
-defaults write NSGlobalDomain NSUserKeyEquivalents -dict-add "Show Previous Tab" -string "@~\\U2190"
-
 ###############################################################################
 # Kill affected applications                                                  #
 ###############################################################################
