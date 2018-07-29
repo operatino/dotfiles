@@ -141,3 +141,16 @@ shopt -s cdspell
 
 # Aliases
 alias edit="/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl"
+
+# iTerm custom
+test -e ${HOME}/.iterm2_shell_integration.bash && source ${HOME}/.iterm2_shell_integration.bash
+
+function iterm2_print_user_vars() {
+  iterm2_set_user_var gitBranch $((git branch 2> /dev/null) | grep \* | cut -c3-)
+}
+
+# The next line updates PATH for the Google Cloud SDK.
+if [ -f '/Users/rharitonov/lib/google-cloud-sdk/path.bash.inc' ]; then source '/Users/rharitonov/lib/google-cloud-sdk/path.bash.inc'; fi
+
+# The next line enables shell command completion for gcloud.
+if [ -f '/Users/rharitonov/lib/google-cloud-sdk/completion.bash.inc' ]; then source '/Users/rharitonov/lib/google-cloud-sdk/completion.bash.inc'; fi
